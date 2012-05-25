@@ -1,4 +1,6 @@
-fontis_campaignmonitor
-======================
+Fontis Campaign Monitor
+=======================
 
-Fontis Campaign Monitor integration for Magento
+This extension integrates Magento with the [Campaign Monitor](http://www.campaignmonitor.com) mailing list manager.
+
+Further documentation is available from the [Fontis Campaign Monitor](http://www.fontis.com.au/magento/extension/campaign-monitor) page on our website.

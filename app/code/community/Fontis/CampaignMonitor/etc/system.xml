@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Fontis Campaign Monitor Extension
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com and you will be sent a copy immediately.
+ *
+ * @category   Fontis
+ * @package    Fontis_CampaignMonitor
+ * @author     Peter Spiller
+ * @author     Chris Norton
+ * @copyright  Copyright (c) 2008 Fontis Pty. Ltd. (http://www.fontis.com.au)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <sections>
+        <newsletter>
+        	<groups>
+        		<campaignmonitor translate="label">
+				<label>Campaign Monitor Settings</label>
+				<frontend_type>text</frontend_type>
+				<sort_order>0</sort_order>
+				<show_in_default>1</show_in_default>
+				<show_in_website>1</show_in_website>
+				<show_in_store>1</show_in_store>
+				<fields>
+					<api_key translate="label">
+						<label>API Key</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>1</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+						<comment>This can be found on your Account Settings page in Campaign Monitor.</comment>
+					</api_key>
+					<list_id translate="label">
+						<label>API List ID</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>2</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+						<comment>Magento users who subscribe/unsubscribe to the newsletter will be added/removed from this Campaign Monitor email list.</comment>
+					</list_id>
+					<m_to_cm_attributes translate="comment">
+						<label>Attributes to pass to Campaign Monitor</label>
+						<frontend_model>fontis_campaignMonitor_block_linkedattributes</frontend_model>
+						<backend_model>adminhtml/system_config_backend_serialized_array</backend_model>
+						<sort_order>25</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+						<comment></comment>
+					</m_to_cm_attributes>
+				</fields>
+			</campaignmonitor>
+        	</groups>
+        </newsletter>
+    </sections>
+</config>

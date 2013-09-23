@@ -1,3 +1,3 @@
-/app/code/community/Fontis/* /app/code/community/Fontis/
-/app/etc/modules/*   /app/etc/modules/
-/app/design/adminhtml/default/default/template/fontis/*   app/design/adminhtml/default/default/template/fontis/
+/app/code/community/Fontis/CampaignMonitor  /app/code/community/Fontis/CampaignMonitor
+/app/etc/modules/Fontis_CampaignMonitor.xml  /app/etc/modules/Fontis_CampaignMonitor.xml
+/app/design/adminhtml/default/default/template/fontis/campaignmonitor  /app/design/adminhtml/default/default/template/fontis/campaignmonitor

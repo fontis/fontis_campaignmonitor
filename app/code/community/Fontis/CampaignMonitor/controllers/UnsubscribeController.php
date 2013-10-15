@@ -84,4 +84,3 @@ class Fontis_CampaignMonitor_UnsubscribeController extends Mage_Core_Controller_
         $this->_redirect('customer/account/');
     }
 }
-?>

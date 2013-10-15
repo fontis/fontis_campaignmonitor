@@ -73,5 +73,3 @@ class Fontis_CampaignMonitor_AdminhookController extends Mage_Adminhtml_Newslett
         parent::massUnsubscribeAction();
     }
 }
-
-?>

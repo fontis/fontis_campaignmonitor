@@ -43,7 +43,7 @@ class Fontis_CampaignMonitor_UnsubscribeController extends Mage_Core_Controller_
                             "EmailAddress" => $email));
                 } catch(Exception $e) {
                     Mage::log("Fontis_CampaignMonitor: Error in SOAP call: ".$e->getMessage());
-                    $session->addException($e, $this->__('There was a problem with the unsubscription'));
+                    Mage::getSingleton('admin/session')->addException($e, $this->__('There was a problem with the unsubscription'));
                     $this->_redirectReferer();
                 }
 
@@ -84,4 +84,3 @@ class Fontis_CampaignMonitor_UnsubscribeController extends Mage_Core_Controller_
         $this->_redirect('customer/account/');
     }
 }
-?>

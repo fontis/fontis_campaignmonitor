@@ -48,7 +48,7 @@ class Fontis_CampaignMonitor_AdminhookController extends Mage_Adminhtml_Newslett
                     $client = new SoapClient("http://api.createsend.com/api/api.asmx?wsdl", array("trace" => true));
                 } catch(Exception $e) {
                     Mage::log("Fontis_CampaignMonitor: Error connecting to CampaignMonitor server: ".$e->getMessage());
-                    $session->addException($e, $this->__('There was a problem with the subscription'));
+                    Mage::getSingleton('admin/session')->addException($e, $this->__('There was a problem with the subscription'));
                     $this->_redirectReferer();
                 }
 
@@ -73,5 +73,3 @@ class Fontis_CampaignMonitor_AdminhookController extends Mage_Adminhtml_Newslett
         parent::massUnsubscribeAction();
     }
 }
-
-?>

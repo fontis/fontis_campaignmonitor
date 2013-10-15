@@ -93,5 +93,3 @@ class Fontis_CampaignMonitor_HookController extends Mage_Newsletter_SubscriberCo
         parent::newAction();
     }
 }
-
-?>

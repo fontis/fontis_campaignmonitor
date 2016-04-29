@@ -1,9 +1,0 @@
-{
-    "name": "fontis/campaignmonitor",
-    "type": "magento-module",
-    "license": "OSL-3.0",
-    "description": "Integrates Magento with the Campaign Monitor mailing list manager.",
-    "require": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
-}

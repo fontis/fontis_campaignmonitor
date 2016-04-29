@@ -1,6 +1,6 @@
 Fontis Campaign Monitor
 =======================
 
-This extension integrates Magento with the [Campaign Monitor](http://www.campaignmonitor.com) mailing list manager.
+Please note that this extension [has been retired](https://www.fontis.com.au/blog/campaign-monitor-extension-major-update-new-home) and is no longer supported.
 
-Further documentation is available from the [Fontis Campaign Monitor](http://www.fontis.com.au/magento/extension/campaign-monitor) page on our website.
+You can find the official Campaign Monitor extension on [Magento Connect](https://www.magentocommerce.com/magento-connect/catalog/product/view/id/30754/s/campaign-monitor/) and [GitHub](https://github.com/campaignmonitor/magento-extension).
